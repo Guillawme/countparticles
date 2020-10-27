@@ -1,6 +1,6 @@
 # countparticles
 
-[![DOI](https://zenodo.org/badge/DOI/.svg)](https://doi.org/)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4139778.svg)](https://doi.org/10.5281/zenodo.4139778)
 
 Report the number of particles in each class from a `run_data.star` file
 produced by RELION.
