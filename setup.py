@@ -8,9 +8,9 @@ with open(path.join(here, 'README.md'), encoding = 'utf-8') as f:
 
 setup(
     name = 'countparticles',
-    version = '1.0',
+    version = '1.1',
 
-    description = 'Describe me',
+    description = 'Report the number of particles in each class from RELION',
     long_description = readme,
     long_description_content_type = 'text/markdown',
     url = 'https://github.com/Guillawme/countparticles',
@@ -30,7 +30,7 @@ setup(
         'Environment :: Console',
         'Natural Language :: English'
     ],
-    keywords = 'cryo-EM Euler angle histogram visualization',
+    keywords = 'cryo-EM particle class distribution visualization',
 
     py_modules = ["countparticles"],
 
