@@ -14,6 +14,9 @@ job. This command-line tool reports a count of particles in each class in a
 `run_it???_data.star` file from a RELION Class2D or Class3D job. It can also
 optionally produce a bar plot of these particle counts.
 
+This tool was tested with star files produced by RELION-3.1.0. Earlier versions
+of RELION are not supported.
+
 ## Acknowledgments
 
 I would not have been able to put this tool together without the
