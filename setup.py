@@ -8,7 +8,7 @@ with open(path.join(here, 'README.md'), encoding = 'utf-8') as f:
 
 setup(
     name = 'countparticles',
-    version = '1.1',
+    version = '1.2',
 
     description = 'Report the number of particles in each class from RELION',
     long_description = readme,
@@ -34,11 +34,11 @@ setup(
 
     py_modules = ["countparticles"],
 
-    python_requires = '>=3.8.5',
+    python_requires = '>=3.9.1',
     install_requires = [
         'click>=7.1.2',
-        'matplotlib>=3.3.1',
-        'starfile>=0.3.1'
+        'matplotlib>=3.3.2',
+        'starfile>=0.4.4'
     ],
 
     entry_points = {
