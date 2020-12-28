@@ -40,7 +40,7 @@ def build_barplot(class_indices, particle_counts, starfile):
 
 # Command-line tool made from the buidling blocks
 
-@click.command(context_settings = dict(help_option_names=['-h', '--help']))
+@click.command(context_settings=dict(help_option_names=['-h', '--help']))
 @click.argument('starfile', metavar='<run_data.star>')
 @click.option('-p', '--plot', 'plot', is_flag=True, help='Optional. Display a bar plot of the particle counts. This is most helpful with only a few classes, e.g. for typical Class3D results (but not for typical Class2D results with many classes).')
 @click.option('-o', '--output', 'output_file', help='Optional. File name to save the barplot (recommended file formats: .png, .pdf, .svg or any format supported by matplotlib). This option has no effect without the -p/--plot option.')
