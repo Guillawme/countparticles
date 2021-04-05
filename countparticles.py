@@ -22,11 +22,11 @@ def print_table(total, class_indices, particle_counts, fractions_of_total):
     """Pretty-print a count and frequency table from a raw classes vector."""
     print('Total number of particles:', total)
     print('Class', 'Particles', '% of total', sep='\t')
-    for (index, count, fraction) in zip(class_indices, particle_counts, fractions_of_total):
+    for index, count, fraction in zip(class_indices, particle_counts, fractions_of_total):
         print(index, '\t', count, '\t\t', f'{fraction:.2f}', sep='')
 
 def build_barplot(class_indices, particle_counts, starfile):
-    """Builds a bar plot of particle counts per class."""
+    """Build a bar plot of particle counts per class."""
     fig, ax = plt.subplots()
     ax.bar(class_indices, particle_counts)
     ax.set_xlabel('Class')
