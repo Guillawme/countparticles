@@ -6,7 +6,7 @@ import click
 
 def load_particles(starfile):
     """Load rlnClassNumber column from a run_data.star file."""
-    star_data = star.open(starfile)
+    star_data = star.read(starfile)
     particles = star_data['particles']['rlnClassNumber']
     return particles
 
